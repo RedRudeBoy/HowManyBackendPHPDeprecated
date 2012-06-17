@@ -1,0 +1,16 @@
+#login:
+#     pattern: /login
+#     defaults: { _controller: RedRudeBoyHowManyBundle:Security:login }
+#     
+#_login_check:
+#     pattern: /login_check
+#     defaults: { _controller: RedRudeBoyHowManyBundle:Security:securityCheck }
+#
+#_logout:
+#     pattern: /logout
+#     defaults: { _controller: RedRudeBoyHowManyBundle:Security:logout }
+#     
+#welcome:
+#     pattern: /
+#     defaults: { _controller: RedRudeBoyHowManyBundle:Security:index }
+##     defaults: { _controller: RedRudeBoyHowManyBundle:Default:index }

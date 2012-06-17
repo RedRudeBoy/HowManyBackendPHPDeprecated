@@ -1,0 +1,15 @@
+parameters:
+#	red_rude_boy_how_many.example.class: RedRudeBoy\HowManyBundle\Example
+#    actionServer: %snc_redis.default%
+
+services:
+    howMany.actionClass:
+        class:	RedRudeBoy\HowManyBundle\Actions\Action
+    
+    howMany.actionStack:
+        class:	RedRudeBoy\HowManyBundle\Actions\ActionStack
+        arguments:	[@snc_redis.default]
+#        arguments: %actionServer%
+    
+    howMany.actionDo:
+        class:	RedRudeBoy\HowManyBundle\Actions\ActionDo

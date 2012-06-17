@@ -1,0 +1,113 @@
+[symfony]
+    git=http://github.com/symfony/symfony.git
+    version=v2.0.14
+
+[twig]
+    git=http://github.com/fabpot/Twig.git
+    version=v1.7.0
+#By Lenin MtHaml
+[MtHaml]
+    git=git://github.com/arnaud-lb/MtHaml.git
+    target=MtHaml
+
+[MtHamlBundle]
+    git=git://github.com/arnaud-lb/MtHamlBundle.git
+    target=bundles/MtHamlBundle
+
+[monolog]
+    git=http://github.com/Seldaek/monolog.git
+    version=1.0.2
+
+[doctrine-common]
+    git=http://github.com/doctrine/common.git
+    version=2.1.4
+
+[doctrine-dbal]
+    git=http://github.com/doctrine/dbal.git
+    version=2.1.6
+
+[doctrine]
+    git=http://github.com/doctrine/doctrine2.git
+    version=2.1.6
+
+[swiftmailer]
+    git=http://github.com/swiftmailer/swiftmailer.git
+    version=v4.1.7
+
+[assetic]
+    git=http://github.com/kriswallsmith/assetic.git
+    version=v1.0.3
+
+[twig-extensions]
+    git=http://github.com/fabpot/Twig-extensions.git
+
+[metadata]
+    git=http://github.com/schmittjoh/metadata.git
+    version=1.1.0
+
+[SensioFrameworkExtraBundle]
+    git=http://github.com/sensio/SensioFrameworkExtraBundle.git
+    target=/bundles/Sensio/Bundle/FrameworkExtraBundle
+    version=origin/2.0
+
+[JMSSecurityExtraBundle]
+    git=http://github.com/schmittjoh/JMSSecurityExtraBundle.git
+    target=/bundles/JMS/SecurityExtraBundle
+    version=origin/1.0.x
+
+[SensioDistributionBundle]
+    git=http://github.com/sensio/SensioDistributionBundle.git
+    target=/bundles/Sensio/Bundle/DistributionBundle
+    version=origin/2.0
+
+[SensioGeneratorBundle]
+    git=http://github.com/sensio/SensioGeneratorBundle.git
+    target=/bundles/Sensio/Bundle/GeneratorBundle
+    version=origin/2.0
+
+[AsseticBundle]
+    git=http://github.com/symfony/AsseticBundle.git
+    target=/bundles/Symfony/Bundle/AsseticBundle
+    version=v1.0.1
+
+#by Lenin
+[JMSSerializerBundle]
+    git=git://github.com/schmittjoh/JMSSerializerBundle.git
+    target=bundles/JMS/SerializerBundle
+
+[SncRedisBundle]
+    git=git://github.com/snc/SncRedisBundle.git
+    target=/bundles/Snc/RedisBundle
+    version=origin/2.0
+
+[predis]
+    git=git://github.com/nrk/predis.git
+    version=origin/v0.7
+
+[doctrine-mongodb]
+    git=http://github.com/doctrine/mongodb.git
+
+[doctrine-mongodb-odm]
+    git=http://github.com/doctrine/mongodb-odm.git
+
+[DoctrineMongoDBBundle]
+    git=http://github.com/doctrine/DoctrineMongoDBBundle.git
+    target=/bundles/Symfony/Bundle/DoctrineMongoDBBundle
+    version=origin/2.0
+
+[FOSRest]
+    git=git://github.com/FriendsOfSymfony/FOSRest.git
+    target=fos/FOS/Rest
+
+[FOSRestBundle]
+    git=git://github.com/FriendsOfSymfony/FOSRestBundle.git
+    target=bundles/FOS/RestBundle
+
+[FOSOAuthServerBundle]
+    git=git://github.com/FriendsOfSymfony/FOSOAuthServerBundle.git
+    target=bundles/FOS/OAuthServerBundle
+    version=origin/1.1.0
+#with symfony 2.1 the version is origin/1.1.x
+
+[oauth2-php]
+    git=git://github.com/FriendsOfSymfony/oauth2-php.git

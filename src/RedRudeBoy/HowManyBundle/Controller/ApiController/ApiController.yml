@@ -1,0 +1,9 @@
+users:
+  resource: "@RedRudeBoyHowManyBundle/Controller/ApiController/UserRestController.php"
+#  type:     annotation
+  type:			rest
+
+calendars:
+  resource: "@RedRudeBoyHowManyBundle/Controller/ApiController/CalendarRestController.php"
+#  type:     annotation
+  type:			rest

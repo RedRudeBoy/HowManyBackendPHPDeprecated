@@ -1,0 +1,65 @@
+login:
+     pattern: /login
+     defaults: { _controller: RedRudeBoyHowManyBundle:Default:login }
+     
+_login_check:
+     pattern: /login_check
+     defaults: { _controller: RedRudeBoyHowManyBundle:Default:securityCheck }
+
+_logout:
+     pattern: /logout
+     defaults: { _controller: RedRudeBoyHowManyBundle:Default:logout }
+     
+welcome:
+     pattern: /
+     defaults: { _controller: RedRudeBoyHowManyBundle:Default:index }
+#     defaults: { _controller: RedRudeBoyHowManyBundle:Default:index }
+
+checkUpdates:
+     pattern: /checkUpdates/{last_mod}
+     defaults: { _controller: RedRudeBoyHowManyBundle:Ajax:checkUpdates }
+#     requirements:
+#         _method: POST
+#         _format: JSON
+     
+sendData:
+     pattern: /sendData/*
+     defaults: { _controller: RedRudeBoyHowManyBundle:Ajax:sendData }
+#     requirements:
+#         _method: POST
+#         _format: JSON
+    
+#_welcome:
+#    pattern:  /
+#    defaults: { _controller: AcmeDemoBundle:Welcome:index }
+
+#_welcome:
+#     pattern: /hello/{name}
+#     defaults: { _controller: AcmeDemoBundle:Secured:hello }
+ #uncomment this lines    
+#login:
+#     pattern: /login
+#     defaults: { _controller: AcmeDemoBundle:Secured:login }
+#     
+#_login_check:
+#     pattern: /login_check
+#     defaults: { _controller: AcmeDemoBundle:Secured:securityCheck }
+#
+#_logout:
+#     pattern: /logout
+#     defaults: { _controller: AcmeDemoBundle:Secured:logout }
+#     
+#welcome:
+#     pattern: /
+#     defaults: { _controller: AcmeDemoBundle:Secured:hello }
+ #until here
+
+#more not used
+#_demo_secured:
+#    resource: "@AcmeDemoBundle/Controller/SecuredController.php"
+#    type:     annotation
+
+#_demo:
+#    resource: "@AcmeDemoBundle/Controller/DemoController.php"
+#    type:     annotation
+#    prefix:   /demo

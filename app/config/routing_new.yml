@@ -1,0 +1,9 @@
+api:
+  resource: "@RedRudeBoyHowManyBundle/Controller/ApiController.php"
+  type:			rest
+#  type:     annotation
+#  prefix:   /api
+
+static:
+  resource: "@RedRudeBoyHowManyBundle/Resources/config/staticRouting.yml"
+  type:			yml

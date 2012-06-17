@@ -1,0 +1,11 @@
+app:
+  resource: "@RedRudeBoyHowManyBundle/Controller/AppController.php"
+  type:     annotation  
+  
+home:
+  resource: "@RedRudeBoyHowManyBundle/Controller/HomeController.php"
+  type:     annotation
+  
+share:
+  resource: "@RedRudeBoyHowManyBundle/Controller/ShareController.php"
+  type:     annotation
